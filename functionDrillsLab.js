@@ -211,7 +211,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
+function printAllNames (array) {
+  for (i = 0; i < array.length; i++){
+    console.log(array[i])
+  }
+}
+printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -222,7 +227,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
+function thatsOdd (number) {
+  if (number % 2 === 0) {
+    console.log("That's not odd!")
+  } else {console.log("That's odd indeed!")}
+}
+let oddChecker = thatsOdd(8)
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -235,6 +245,8 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+const bestMovie = (movieTitle) => `${movieTitle} is the best movie ever!`
+bestMovie(`top Gun`)
 
 
 ////////////////// PROBLEM 15 ////////////////////
@@ -249,6 +261,19 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 */
 
 //CODE HERE
+const numms = [30,101,50,200]
+
+function bigOrSmall (arr){
+  const answers = [];
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i]>100){answers.push(`big`)}
+
+    else {answers.push(`small`)
+  }
+  }
+  return answers
+}
+bigOrSmall(numms)
 
 
 ////////////////// PROBLEM 16 ////////////////////
@@ -260,7 +285,15 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
-
+function theEliminator (arr1, arr2) {
+  for (let i = 0; i < arr1.length; i++){
+    if (arr1[i].includes(arr2)){
+      arr1.splice(i, 1)
+    } 
+  } 
+  return (arr1)
+}
+theEliminator(contestants, loser)
 
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -271,6 +304,11 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
+function upperCaseFunction (string) {
+  console.log(string.toUpperCase())
+}
+
+upperCaseFunction(sampleString)
 
 ////////////////// PROBLEM 18 ////////////////////
 /*
@@ -282,6 +320,14 @@ let sampleString = "Hi, my name is Kylo."
   If it does, return 'email verified' and if doesn't, 
   return 'must provide a valid email address'
 */
+function emailCheck(email) {
+  email = String(email).trim()
+  if (email.includes('@')){console.log(email)
+    return(`email Verified`)
+  } else {
+    return(`must provide a valid email address`)}
+}
+emailCheck(` blahblah@goodboys.com`)
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
