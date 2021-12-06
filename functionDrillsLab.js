@@ -57,6 +57,13 @@ printName('chance')
 //CODE HERE
 
 
+function greeting(name) {
+  const myName = String(name)
+  const hello = `Hello ${myName}`
+  console.log(hello)
+}
+greeting('cameron')
+
 ////////////////// PROBLEM 5 ////////////////////
 
 /*
@@ -69,8 +76,14 @@ printName('chance')
 */
 
 //CODE HERE
-
-
+const compareNums = (num1, num2) => {
+  if (num1 > num2) {
+    return(num1)
+  }else {
+    return(num2)
+  }
+}
+console.log(compareNums(3,4))
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Create a function called add that takes in two parameters 
@@ -80,8 +93,13 @@ printName('chance')
 */
 
 //CODE HERE
-
-
+const add = (num1, num2) => {
+  let x = Number(num1)
+  let y = Number(num2)
+  return(x + y)
+  
+}
+add('5','6')
 ////////////////// PROBLEM 7 ////////////////////
 
 /*
@@ -95,7 +113,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+expression
 
 
 
@@ -110,7 +128,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+arrow
 // declaration
 // expression
 
@@ -121,7 +139,7 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
-
+const exclaimthree = () => str.tuUpperCase() + '!!!'
 
 ////////////////// PROBLEM 9 ////////////////////
 
@@ -135,7 +153,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+declaration
 // expression
 
 
