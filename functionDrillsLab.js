@@ -167,6 +167,16 @@ declaration
 */
 
 //CODE HERE
+function nameCheck (name) {
+  if (name.includes(`Steven`)){
+    console.log (`what is up, Steven`)
+  } else if (name.includes(`Bryan`)){
+    console.log (`Hey, Bryan`)
+  } 
+  else {console.log(`thats a cool name, ${name}`)}
+}
+
+nameCheck(`jake`)
 
 
 ////////////////// PROBLEM 11 ////////////////////
