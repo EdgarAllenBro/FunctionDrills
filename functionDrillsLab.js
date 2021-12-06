@@ -336,7 +336,13 @@ emailCheck(` blahblah@goodboys.com`)
 */
 
 //CODE HERE
-
+function buyFrogs(gold) {
+  let frogCost = 3
+ let x = gold / frogCost 
+ return(x)
+}
+let totalFrogs = buyFrogs(60)
+console.log(totalFrogs)
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
