@@ -15,7 +15,7 @@
 function helloWorld (){
   console.log('Hello World')
 }
-
+helloWorld()
 
 
 ////////////////// PROBLEM 2 ////////////////////
@@ -25,7 +25,9 @@ function helloWorld (){
 */
 
 //CODE HERE
-
+let jsNinja = () => {
+return('I am a JaveScript Ninja')
+}
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -35,6 +37,10 @@ function helloWorld (){
 */
 
 //CODE HERE
+let printName = (name) => {
+  console.log(name)
+}
+printName('chance')
 
 
 ////////////////// PROBLEM 4 ////////////////////
