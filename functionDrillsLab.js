@@ -350,7 +350,12 @@ console.log(totalFrogs)
 */
 
 //CODE HERE
-
+function buyFrogs2 (gold){
+  let frogCost = 3 
+ let x = gold / frogCost
+ return(Math.floor(x))
+ }
+ buyFrogs2(23)
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
