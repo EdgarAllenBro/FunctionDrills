@@ -190,7 +190,17 @@ nameCheck(`jake`)
 */
 
 //CODE HERE
-
+function faveColorfinder (color) {
+  if (color.includes(`red`)){
+    console.log('red is a great color')
+  } else if (color.includes(`green`)){
+    console.log('green is a solid faveorite color')
+  } else if (color.includes("black")) {
+    console.log("So trendy")
+  } else {
+    console.log("You need to evaluate your favorite color choice.")
+  }
+}
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
