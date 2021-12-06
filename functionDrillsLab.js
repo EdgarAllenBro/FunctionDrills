@@ -12,9 +12,12 @@
 */
 
 //CODE HERE
+<<<<<<< HEAD
 function helloWorld (){
   console.log('Hello World')
 }
+=======
+>>>>>>> 6eca70e12aa8d28ba614160267555c74788b971a
 
 
 ////////////////// PROBLEM 2 ////////////////////
