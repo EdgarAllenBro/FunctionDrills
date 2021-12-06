@@ -364,6 +364,18 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 */
 
 //CODE HERE
+function isAscending (arr) {
+
+  for(i = 0; i < arr.length; i++){
+    for (j = i + 1; j< arr.length; j++){
+      if (arr[j]<arr[i]) {
+        return false
+      
+      }
+    }
+  }return true
+}
+isAscending(sampleArray)
 
 
 ////////////////// PROBLEM 22 ////////////////////
